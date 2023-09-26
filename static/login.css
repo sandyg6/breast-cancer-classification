@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ 
+ body{
+    height: 100vh;
+    background: linear-gradient(#872525, #243b55);
+ }
+ 
+ .loginBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgb(144, 7, 72, .5);
+    box-shadow: 0 15px 25px rgba(16, 5, 10, 0.6);
+    border-radius: 10px;
+    padding: 40px;
+ }
+ 
+ .loginBox h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .userinputBox{
+    position: relative;
+    margin-bottom: 30px;
+ }
+ 
+ .userinputBox label{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+ }
+ 
+ .userinputBox input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+ }
+ 
+ .loginBox button{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #f403af;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+ }
+ 
+ .loginBox button:hover{
+    color: #243b55;
+    background: #fff;
+ }
